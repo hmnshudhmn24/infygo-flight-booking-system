@@ -1,0 +1,1 @@
+INSERT INTO flight (source, destination, price) VALUES ('Delhi','Mumbai',4500);

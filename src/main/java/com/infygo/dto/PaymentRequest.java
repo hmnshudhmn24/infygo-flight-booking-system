@@ -1,0 +1,1 @@
+package com.infygo.dto; public class PaymentRequest { public Double amount; }

@@ -1,0 +1,1 @@
+package com.infygo.dto; public class FlightSearchRequest { public String source; public String destination; }

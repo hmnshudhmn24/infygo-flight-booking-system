@@ -1,0 +1,1 @@
+package com.infygo.exception; public class BookingException extends RuntimeException {}

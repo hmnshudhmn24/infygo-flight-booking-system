@@ -1,0 +1,1 @@
+package com.infygo.controller; import org.springframework.web.bind.annotation.*; import com.infygo.security.JwtUtil; @RestController @RequestMapping("/api/auth") public class AuthController { private final JwtUtil jwt; public AuthController(JwtUtil j){ this.jwt=j; } @PostMapping("/login") public String login(@RequestParam String username){ return jwt.generateToken(username); } }

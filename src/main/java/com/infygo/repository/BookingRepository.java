@@ -1,0 +1,1 @@
+package com.infygo.repository; import org.springframework.data.jpa.repository.JpaRepository; import com.infygo.model.Booking; public interface BookingRepository extends JpaRepository<Booking,Long>{}

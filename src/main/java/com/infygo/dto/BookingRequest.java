@@ -1,0 +1,1 @@
+package com.infygo.dto; public class BookingRequest { public Long userId; public Long flightId; }

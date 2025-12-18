@@ -1,0 +1,1 @@
+package com.infygo.model; import jakarta.persistence.*; @Entity public class Payment { @Id @GeneratedValue(strategy=GenerationType.IDENTITY) private Long id; private Double amount; private String status; }

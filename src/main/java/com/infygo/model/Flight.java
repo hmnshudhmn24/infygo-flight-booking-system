@@ -1,0 +1,1 @@
+package com.infygo.model; import jakarta.persistence.*; @Entity public class Flight { @Id @GeneratedValue(strategy=GenerationType.IDENTITY) private Long id; private String source; private String destination; private Double price; }
